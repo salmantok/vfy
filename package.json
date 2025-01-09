@@ -1,0 +1,28 @@
+{
+  "name": "vfy",
+  "version": "0.0.0",
+  "description": "",
+  "source": "./src/index.js",
+  "exports": {
+    "require": "./dist/foo.cjs",
+    "default": "./dist/foo.modern.js"
+  },
+  "main": "./dist/foo.cjs",
+  "module": "./dist/foo.module.js",
+  "unpkg": "./dist/foo.umd.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "salmantok",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmantok/vfy.git"
+  },
+  "homepage": "https://github.com/salmantok/vfy#readme",
+  "files": [
+    "./dist/"
+  ]
+}
