@@ -14,7 +14,7 @@ npm install vfy
 import { test } from 'vfy';
 
 function add(a, b) {
-  return a + b;
+    return a + b;
 }
 const result = add(2, 3);
 console.log(result);
